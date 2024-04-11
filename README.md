@@ -22,7 +22,7 @@
 
 ---
 
-  <center><b> Table 2: Classification accuracy (%) of FedSpray with GAT.</b></center>
+<b> Table 2: Classification accuracy (%) of FedSpray with GAT.</b>
   
 | PubMed   |    Overall  |   Minority  |
 |-----------|--------------|--------------|
@@ -46,7 +46,7 @@
 
 ---
 
-<b> Table 3: AUC with GraphSAGE over WikiCS and Physics.</b>
+<b> Table 3: AUC (%) with GraphSAGE over WikiCS and Physics.</b>
 
 | Model    |   WikiCS   |  Physics    |
 |-----------|--------------|--------------|
