@@ -9,8 +9,8 @@
   
 |  WikiCS   |  $\sigma=0.1$  |  $\sigma=0.5$  |   $\sigma=1$   |  $\sigma=5$    |
 |-----------|----------------|----------------|----------------|----------------|
-| Overall   | 81.70$&plusmn$ 0.82 | 81.16$&plusmn$0.65 | 80.04$&plusmn$1.34 | 68.23$&plusmn$2.14 |
-| Minority  | 52.27$&plusmn$ 0.91 | 50.4$&plusmn$1.29 | 49.46$&plusmn$2.31 | 24.79$&plusmn$1.37 |
+| Overall   | 81.70 $&plusmn$ 0.82 | 81.16$&plusmn$ 0.65 | 80.04$&plusmn$1.34 | 68.23$&plusmn$2.14 |
+| Minority  | 52.27 $&plusmn$ 0.91 | 50.4$&plusmn$ 1.29 | 49.46$&plusmn$2.31 | 24.79$&plusmn$1.37 |
 
 
 |  Physics  |  $\sigma=0.1$  |  $\sigma=0.5$  |   $\sigma=1$   |  $\sigma=5$    |
