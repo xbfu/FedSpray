@@ -15,42 +15,42 @@
 
 |  Physics  |  $\sigma=0.1$  |  $\sigma=0.5$  |   $\sigma=1$   |  $\sigma=5$    |
 |-----------|----------------|----------------|----------------|----------------|
-| Overall   | 95.64$\pm$0.43 | 95.71$\pm$0.59 | 95.65$\pm$0.52 | 95.18$\pm$0.94 |
-| Minority  | 81.17$\pm$1.24 | 80.43$\pm$1.18 | 80.08$\pm$1.70 | 78.37$\pm$1.42 |
+| Overall   | 95.64 $&plusmn$ 0.43 | 95.71 $&plusmn$ 0.59 | 95.65 $&plusmn$ 0.52 | 95.18 $&plusmn$ 0.94 |
+| Minority  | 81.17 $&plusmn$ 1.24 | 80.43 $&plusmn$ 1.18 | 80.08 $&plusmn$ 1.70 | 78.37 $&plusmn$ 1.42 |
 
   <center><b> Table 2: Classification accuracy (%) of FedSpray with GAT.</b></center>
   
 | PubMed   |    Overall  |   Minority  |
 |-----------|--------------|--------------|
-| Local    |83.44$\pm$0.23|35.25$\pm$2.78|
-| Fedavg   |84.20$\pm$1.00|51.64$\pm$3.64|
-|  APFL    |85.11$\pm$0.61|41.09$\pm$4.36|
-|  GCFL    |82.75$\pm$0.33|38.93$\pm$3.35|
-|  FedStar  |83.30$\pm$0.78|27.77$\pm$4.52|
-| FedLit   |85.38$\pm$0.52|53.88$\pm$2.13|
-| FedSpray  |86.03$\pm$1.06|59.64$\pm$1.21|
+| Local    |83.44 $&plusmn$ 0.23|35.25 $&plusmn$ 2.78|
+| Fedavg   |84.20 $&plusmn$ 1.00|51.64 $&plusmn$ 3.64|
+|  APFL    |85.11 $&plusmn$ 0.61|41.09 $&plusmn$ 4.36|
+|  GCFL    |82.75 $&plusmn$ 0.33|38.93 $&plusmn$ 3.35|
+|  FedStar  |83.30 $&plusmn$ 0.78|27.77 $&plusmn$ 4.52|
+| FedLit   |85.38 $&plusmn$ 0.52|53.88 $&plusmn$ 2.13|
+| FedSpray  |86.03 $&plusmn$ 1.06|59.64 $&plusmn$ 1.21|
 
 |  Physics  |    Overall  |   Minority  |
 |-----------|--------------|--------------|
-| Local    |88.03$\pm$0.37|39.32$\pm$3.01|
-| Fedavg   |84.87$\pm$0.86|52.01$\pm$1.67|
-|  APFL    |85.22$\pm$1.02|30.45$\pm$2.13|
-|  GCFL    |85.99$\pm$0.87|42.68$\pm$7.01|
-|  FedStar  |90.88$\pm$0.78|40.14$\pm$6.81|
-| FedLit   |93.87$\pm$0.21|65.66$\pm$2.28|
-| FedSpray  |95.57$\pm$0.24|81.00$\pm$1.35|
+| Local    |88.03 $&plusmn$ 0.37|39.32 $&plusmn$ 3.01|
+| Fedavg   |84.87 $&plusmn$ 0.86|52.01 $&plusmn$ 1.67|
+|  APFL    |85.22 $&plusmn$ 1.02|30.45 $&plusmn$ 2.13|
+|  GCFL    |85.99 $&plusmn$ 0.87|42.68 $&plusmn$ 7.01|
+|  FedStar  |90.88 $&plusmn$ 0.78|40.14 $&plusmn$ 6.81|
+| FedLit   |93.87 $&plusmn$ 0.21|65.66 $&plusmn$ 2.28|
+| FedSpray  |95.57 $&plusmn$ 0.24|81.00 $&plusmn$ 1.35|
 
   <center><b> Table 3: AUC with GraphSAGE over WikiCS and Physics.</b></center>
 
 | Model    |   WikiCS   |  Physics    |
 |-----------|--------------|--------------|
-| Local    |92.86$\pm$0.83|97.99$\pm$0.08|
-| Fedavg   |95.19$\pm$1.25|99.16$\pm$0.12|
-|  APFL    |95.17$\pm$0.82|89.85$\pm$6.45|
-|  GCFL    |91.45$\pm$2.26|96.94$\pm$0.22|
-|  FedStar  |91.76$\pm$0.50|98.52$\pm$0.09|
-| FedLit   |93.50$\pm$0.96|98.47$\pm$0.13|
-| FedSpray  |95.59$\pm$0.75|99.39$\pm$0.06|
+| Local    |92.86 $&plusmn$ 0.83|97.99 $&plusmn$ 0.08|
+| Fedavg   |95.19 $&plusmn$ 1.25|99.16 $&plusmn$ 0.12|
+|  APFL    |95.17 $&plusmn$ 0.82|89.85 $&plusmn$ 6.45|
+|  GCFL    |91.45 $&plusmn$ 2.26|96.94 $&plusmn$ 0.22|
+|  FedStar  |91.76 $&plusmn$ 0.50|98.52 $&plusmn$ 0.09|
+| FedLit   |93.50 $&plusmn$ 0.96|98.47 $&plusmn$ 0.13|
+| FedSpray  |95.59 $&plusmn$ 0.75|99.39 $&plusmn$ 0.06|
 
 <center><b> Figure 2: Classification accuracy (%) of minority nodes in each client by training MLP and various GNN models via FedAvg over PubMed and WikiCS.</b> </center>
 
@@ -144,35 +144,35 @@
   <tr>
     <td rowspan="3">PubMed</td>
     <td>GCN</td>
-    <td>87.02$\pm$0.82</td>
-    <td>54.94$\pm$1.61</td>
+    <td>87.02 $&plusmn$ 0.82</td>
+    <td>54.94 $&plusmn$ 1.61</td>
   </tr>
   <tr>
     <td>SGC</td>
-    <td>87.01$\pm$0.76</td>
-    <td>46.44$\pm$1.33</td>
+    <td>87.01 $&plusmn$ 0.76</td>
+    <td>46.44 $&plusmn$ 1.33</td>
   </tr>
   <tr>
     <td>GraphSAGE</td>
-    <td>86.47$\pm$0.56</td>
-    <td>55.11$\pm$1.51</td>
+    <td>86.47 $&plusmn$ 0.56</td>
+    <td>55.11 $&plusmn$ 1.51</td>
   </tr>
   <tr style="border-bottom: 1.5px solid #000;">
   <tr>
     <td rowspan="3">Physics</td>
     <td>GCN</td>
-    <td>94.66$\pm$0.25</td>
-    <td>78.89$\pm$0.95</td>
+    <td>94.66 $&plusmn$ 0.25</td>
+    <td>78.89 $&plusmn$ 0.95</td>
   </tr>
   <tr>
     <td>SGC</td>
-    <td>94.74$\pm$0.22</td>
-    <td>70.73$\pm$0.58</td>
+    <td>94.74 $&plusmn$ 0.22</td>
+    <td>70.73 $&plusmn$ 0.58</td>
   </tr>
   <tr>
     <td>GraphSAGE</td>
-    <td>94.40$\pm$0.35</td>
-    <td>76.12$\pm$1.44</td>
+    <td>94.40 $&plusmn$ 0.35</td>
+    <td>76.12 $&plusmn$ 1.44</td>
   </tr>
     
   <tr style="border-bottom: 2px solid #000;">
@@ -182,13 +182,13 @@
 
 |Method|Overall|Minority|
 |-|-|-|
-| Local    |64.42$\pm$0.50|37.05$\pm$0.18|
-| Fedavg   |54.38$\pm$0.67|38.21$\pm$1.35|
-|  APFL    |61.71$\pm$0.55|36.09$\pm$0.63|
-|  GCFL    |48.07$\pm$1.05|28.08$\pm$1.43|
-|  FedStar  |58.97$\pm$0.74|26.49$\pm$2.11|
-| FedLit   |52.03$\pm$0.81|36.42$\pm$0.76|
-| FedSpray  |64.82$\pm$0.22|40.06$\pm$0.65|
+| Local    |64.42 $&plusmn$ 0.50|37.05 $&plusmn$ 0.18|
+| Fedavg   |54.38 $&plusmn$ 0.67|38.21 $&plusmn$ 1.35|
+|  APFL    |61.71 $&plusmn$ 0.55|36.09 $&plusmn$ 0.63|
+|  GCFL    |48.07 $&plusmn$ 1.05|28.08 $&plusmn$ 1.43|
+|  FedStar  |58.97 $&plusmn$ 0.74|26.49 $&plusmn$ 2.11|
+| FedLit   |52.03 $&plusmn$ 0.81|36.42 $&plusmn$ 0.76|
+| FedSpray  |64.82 $&plusmn$ 0.22|40.06 $&plusmn$ 0.65|
 
 
 
@@ -206,25 +206,25 @@
   <tr>
     <td rowspan="2">PubMed</td>
     <td>FedSpray</td>
-    <td>82.20$\pm$4.14</td>
-    <td>53.81$\pm$2.92</td>
+    <td>82.20 $&plusmn$ 4.14</td>
+    <td>53.81 $&plusmn$ 2.92</td>
   </tr>
   <tr>
     <td>FedSpray(<strong>S=0</strong>)</td>
-    <td>81.03$\pm$2.34</td>
-    <td>50.49$\pm$2.80</td>
+    <td>81.03 $&plusmn$ 2.34</td>
+    <td>50.49 $&plusmn$ 2.80</td>
   </tr>
   <tr style="border-bottom: 1.5px solid #000;">
   <tr>
     <td rowspan="2">Physics</td>
     <td>FedSpray</td>
-    <td>94.15$\pm$0.72</td>
-    <td>69.31$\pm$2.11</td>
+    <td>94.15 $&plusmn$ 0.72</td>
+    <td>69.31 $&plusmn$ 2.11</td>
   </tr>
   <tr>
     <td>FedSpray(<strong>S=0</strong>)</td>
-    <td>93.68$\pm$0.55</td>
-    <td>67.10$\pm$1.65</td>
+    <td>93.68 $&plusmn$ 0.55</td>
+    <td>67.10 $&plusmn$ 1.65</td>
   </tr>    
   <tr style="border-bottom: 2px solid #000;">
 </table>
