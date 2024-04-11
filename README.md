@@ -3,7 +3,7 @@
 <center><b> Figure 1: Classification accuracy (%) of FedSpray on all nodes and minority nodes with different values of &lambda;<sub>1</sub>. </b> </center>
 
 <img src="./figure_lambda1.png" alt="title" width="50%">
-
+---
 
   <center><b> Table 1: Classification accuracy (%) of FedSpray on WikiCS with GraphSAGE and Physics with GCN under different values of &sigma;. </b></center>
   
@@ -12,11 +12,12 @@
 | Overall   | 81.70 $&plusmn$ 0.82 | 81.16 $&plusmn$ 0.65 | 80.04 $&plusmn$ 1.34 | 68.23 $&plusmn$ 2.14 |
 | Minority  | 52.27 $&plusmn$ 0.91 | 50.49 $&plusmn$ 1.29 | 49.46 $&plusmn$ 2.31 | 24.79 $&plusmn$ 1.37 |
 
-
 |  Physics  |  $\sigma=0.1$  |  $\sigma=0.5$  |   $\sigma=1$   |  $\sigma=5$    |
 |-----------|----------------|----------------|----------------|----------------|
 | Overall   | 95.64 $&plusmn$ 0.43 | 95.71 $&plusmn$ 0.59 | 95.65 $&plusmn$ 0.52 | 95.18 $&plusmn$ 0.94 |
 | Minority  | 81.17 $&plusmn$ 1.24 | 80.43 $&plusmn$ 1.18 | 80.08 $&plusmn$ 1.70 | 78.37 $&plusmn$ 1.42 |
+
+---
 
   <center><b> Table 2: Classification accuracy (%) of FedSpray with GAT.</b></center>
   
@@ -40,6 +41,8 @@
 | FedLit   |93.87 $&plusmn$ 0.21|65.66 $&plusmn$ 2.28|
 | FedSpray  |95.57 $&plusmn$ 0.24|81.00 $&plusmn$ 1.35|
 
+---
+
   <center><b> Table 3: AUC with GraphSAGE over WikiCS and Physics.</b></center>
 
 | Model    |   WikiCS   |  Physics    |
@@ -52,11 +55,15 @@
 | FedLit   |93.50 $&plusmn$ 0.96|98.47 $&plusmn$ 0.13|
 | FedSpray  |95.59 $&plusmn$ 0.75|99.39 $&plusmn$ 0.06|
 
+---
+
 <center><b> Figure 2: Classification accuracy (%) of minority nodes in each client by training MLP and various GNN models via FedAvg over PubMed and WikiCS.</b> </center>
 
 <img src="./PubMed_preliminary.png" width="80%">
 <img src="./WikiCS_preliminary.png" width="80%">
 
+
+---
 
 
   <center><b> Table 4: The information about label distribution of the four datasets adopted for our experiments. Numbers in bold represent majority classes in each client. The rest are minority classes.</b></center>
@@ -129,6 +136,8 @@
 | Client 20  |       31 |     57 |     68 |     32 |    162 |     28 |    **310** |
 
 
+---
+
 
   <center><b> Table 5: Classification accuracy (%) of FedALA on PubMed and Physics with different GNN backbones.</b></center>
   
@@ -178,6 +187,8 @@
   <tr style="border-bottom: 2px solid #000;">
 </table>
 
+---
+
   <center><b> Table 6: Classification accuracy (%) of FedSpray over the ogbn-arxiv dataset with GraphSAGE as the backbone.</b></center>
 
 |Method|Overall|Minority|
@@ -190,6 +201,8 @@
 | FedLit   |52.03 $&plusmn$ 0.81|36.42 $&plusmn$ 0.76|
 | FedSpray  |64.82 $&plusmn$ 0.22|40.06 $&plusmn$ 0.65|
 
+
+---
 
 
   <center><b> Table 7: Classification accuracy (%) of FedSpray with shared GCN parameters.</b></center>
