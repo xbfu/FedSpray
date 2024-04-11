@@ -1,8 +1,11 @@
 # Rebuttal Tables and Figures 
 
+---
+
 <center><b> Figure 1: Classification accuracy (%) of FedSpray on all nodes and minority nodes with different values of &lambda;<sub>1</sub>. </b> </center>
 
 <img src="./figure_lambda1.png" alt="title" width="50%">
+
 ---
 
   <center><b> Table 1: Classification accuracy (%) of FedSpray on WikiCS with GraphSAGE and Physics with GCN under different values of &sigma;. </b></center>
@@ -243,6 +246,7 @@
 </table>
 
 
+---
 
 
 # Official Code for FedSpray
