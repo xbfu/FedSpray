@@ -4,7 +4,7 @@
 
 <b> Figure 1: Classification accuracy (%) of FedSpray on all nodes and minority nodes with different values of &lambda;<sub>1</sub>. </b>
 
-<div><img src="./figure_lambda1.png" width="50%"/></div>
+<div><img src="./architecture.jpg" width="50%"/></div>
 
 ---
 
@@ -63,7 +63,7 @@
 <b> Figure 2: Classification accuracy (%) of minority nodes in each client by training MLP and various GNN models via FedAvg over PubMed and WikiCS.</b>
 
 <div><img src="./PubMed_preliminary.png" width="70%"/></div>
-<div><img width="70%" src="./WikiCS_preliminary.png"/></div>
+<div><img width="70%" src="./architecture.jpg"/></div>
 
 
 ---
