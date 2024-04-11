@@ -1,16 +1,16 @@
 # Rebuttal Tables and Figures 
 
-<center><b> Figure 1: Classification accuracy (%) of FedSpray on all nodes and minority nodes with different values of &lambda;<sub></sub>. </b> </center>
+<center><b> Figure 1: Classification accuracy (%) of FedSpray on all nodes and minority nodes with different values of </b> </center>$\lambda_1$.
 
 <img src="./figure_lambda1.png" alt="title" width="50%">
 
 
-  <center><b> Table 1: Classification accuracy (%) of FedSpray on WikiCS with GraphSAGE and Physics with GCN under different values of &sigma;.</b></center>
+  <center><b> Table 1: Classification accuracy (%) of FedSpray on WikiCS with GraphSAGE and Physics with GCN under different values of</b></center> $\sigma$.
   
 |  WikiCS   |  $\sigma=0.1$  |  $\sigma=0.5$  |   $\sigma=1$   |  $\sigma=5$    |
 |-----------|----------------|----------------|----------------|----------------|
 | Overall   | 81.70 $&plusmn$ 0.82 | 81.16 $&plusmn$ 0.65 | 80.04 $&plusmn$ 1.34 | 68.23 $&plusmn$ 2.14 |
-| Minority  | 52.27 $&plusmn$ 0.91 | 50.4 $&plusmn$ 1.29 | 49.46 $&plusmn$ 2.31 | 24.79 $&plusmn$ 1.37 |
+| Minority  | 52.27 $&plusmn$ 0.91 | 50.49 $&plusmn$ 1.29 | 49.46 $&plusmn$ 2.31 | 24.79 $&plusmn$ 1.37 |
 
 
 |  Physics  |  $\sigma=0.1$  |  $\sigma=0.5$  |   $\sigma=1$   |  $\sigma=5$    |
