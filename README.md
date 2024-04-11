@@ -214,7 +214,7 @@
    <tr style="border-top: 2px solid #000;">
   <tr>
       <th style="font-weight: bold;">Dataset</th>
-      <th style="font-weight: bold;">Model</th>
+      <th style="font-weight: bold;">Method</th>
       <th style="font-weight: bold;">Overall</th>
       <th style="font-weight: bold;">Minority</th>
   </tr>
