@@ -62,8 +62,8 @@
 
 <b> Figure 2: Classification accuracy (%) of minority nodes in each client by training MLP and various GNN models via FedAvg over PubMed and WikiCS.</b>
 
-<div><img src="./PubMed_preliminary.png" width="60%"></div>
-<div><img src="./WikiCS_preliminary.png" width="60%"></div>
+<div><img src="./PubMed_preliminary.png" width="70%"></div>
+<div><img src="./WikiCS_preliminary.png" width="70%"></div>
 
 
 ---
