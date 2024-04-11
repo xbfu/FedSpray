@@ -4,7 +4,7 @@
 
 <b> Figure 1: Classification accuracy (%) of FedSpray on all nodes and minority nodes with different values of &lambda;<sub>1</sub>. </b>
 
-<div><img src="https://anonymous.4open.science/r/FedSpray-KDD317/figure_lambda1.png" width="30%"/></div>
+<div><img src="https://anonymous.4open.science/r/FedSpray-KDD317/figure_lambda1.png" width="20%"/></div>
 
 ---
 
@@ -64,9 +64,9 @@
 
 
 
-<div><img src="https://anonymous.4open.science/r/FedSpray-KDD317/PubMed_preliminary.png" width="50%"/></div>
+<div><img src="https://anonymous.4open.science/r/FedSpray-KDD317/PubMed_preliminary.png" width="30%"/></div>
 
-<div><img src="https://anonymous.4open.science/r/FedSpray-KDD317/WikiCS_preliminary.png" width="50%"/></div>
+<div><img src="https://anonymous.4open.science/r/FedSpray-KDD317/WikiCS_preliminary.png" width="30%"/></div>
 
 
 ---
